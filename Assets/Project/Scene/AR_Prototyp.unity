@@ -556,7 +556,7 @@ GameObject:
   - component: {fileID: 842802746}
   - component: {fileID: 842802745}
   - component: {fileID: 842802749}
-  - component: {fileID: 842802748}
+  - component: {fileID: 842802750}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -612,21 +612,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &842802748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 842802744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e62a64ee6ae34fa43b7cf73437fead62, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 2087789845880498213, guid: 9f26eb962a2865e4084588160464d255, type: 3}
-  spawnObject: {fileID: 0}
-  object_spawned: 0
 --- !u!114 &842802749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -640,6 +625,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RaycastPrefab: {fileID: 0}
+--- !u!114 &842802750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842802744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4047865374ed3044f9ec58536a9b102f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  object_spawned: 0
+  arCam: {fileID: 103502310}
+  unspawnedObjects:
+  - {fileID: 5661128212891436829, guid: 90b83fa1720170147b3ab6e277e83ba5, type: 3}
+  - {fileID: 213751966390475579, guid: ddea2962b3ef1694fb24dbe111b961cf, type: 3}
+  - {fileID: 6209705134484101803, guid: 878cef8272e7a564b83c3db3161f5849, type: 3}
+  - {fileID: 3693232537978964585, guid: 926b9ff679e6d3a4696cbf339884db09, type: 3}
+  - {fileID: 4051522762894750576, guid: 0211bc50073570b44a7c27546f513d20, type: 3}
+  - {fileID: 93258031160217601, guid: 120060cde114325488ac96f8725e81f0, type: 3}
+  - {fileID: 6255630014995639137, guid: f638dbabe3e35bc48b8da60beaf6237d, type: 3}
+  - {fileID: 1422395089894195844, guid: f40da9d7519573c4cab2256fb125f590, type: 3}
+  - {fileID: 6517253244871555882, guid: f84e19029089e1b49a0aecc748e846dd, type: 3}
+  - {fileID: 6801274454031083309, guid: 97d7eacb096948b40afdc54491e84087, type: 3}
+  - {fileID: 4638674963705434920, guid: 781560cec880a3b4b8e1b468b21a12ca, type: 3}
+  sceneObjects: []
 --- !u!1 &1015722065
 GameObject:
   m_ObjectHideFlags: 0
