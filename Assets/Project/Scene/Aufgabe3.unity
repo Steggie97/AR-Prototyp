@@ -1017,7 +1017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   zahl1: -3
-  zahl2: 3
+  zahl2: 7
   modus: 1
 --- !u!1 &1015722065
 GameObject:
